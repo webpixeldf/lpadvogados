@@ -1,0 +1,60 @@
+# Landing Page Para Advogados - LLMs.txt
+
+## Sobre o Site
+Este site oferece serviços especializados de criação de landing pages para advogados, focando em alta conversão e conformidade com as normas da OAB.
+
+## Público-Alvo
+- Advogados autônomos
+- Escritórios de advocacia
+- Profissionais jurídicos que buscam captação de clientes online
+
+## Serviços Oferecidos
+- Criação de landing pages personalizadas
+- Design responsivo e moderno
+- Otimização para conversão
+- Conformidade com normas da OAB
+- SEO otimizado para advogados
+
+## Diferenciais
+- Mais de 1400 advogados atendidos
+- 8 anos de experiência no mercado jurídico
+- 100% dos projetos validados
+- Foco em resultados mensuráveis
+
+## Tecnologias Utilizadas
+- HTML5 semântico
+- CSS3 com design responsivo
+- JavaScript vanilla
+- Font Awesome para ícones
+- Google Fonts (Playfair Display e Poppins)
+- Schema markup para SEO
+- Meta tags otimizadas
+
+## Estrutura do Site
+- Página inicial (index.html) - Landing page principal
+- Quem Somos (quem-somos.html) - Apresentação da empresa
+- Portfólio (portfolio.html) - Casos de sucesso
+- Blog - Link externo para conteúdo
+
+## Cores da Marca
+- Primária: #314e52 (verde escuro)
+- Secundária: #b68c5a (dourado)
+- Suporte: #ffffff (branco) e #f5f5f5 (cinza claro)
+
+## Contato
+- WhatsApp: (61) 99278-4283
+- Botão flutuante com animação pulsante
+
+## SEO e Performance
+- Sitemap.xml configurado
+- Robots.txt otimizado
+- Meta descriptions personalizadas
+- Canonical URLs
+- Schema markup implementado
+- Otimização para Core Web Vitals
+
+## Conformidade Legal
+- Política de privacidade
+- Termos de uso
+- Conformidade com LGPD
+- Adequação às normas da OAB para publicidade jurídica
