@@ -43,6 +43,7 @@ body {
 
 .navbar {
     padding: 1rem 0;
+    background-color: #1e3539;
 }
 
 .nav-container {
@@ -55,7 +56,7 @@ body {
 }
 
 .nav-logo .logo {
-    height: 60px;
+    height: 55px;
     width: auto;
 }
 
@@ -68,14 +69,15 @@ body {
 
 .nav-link {
     text-decoration: none;
-    color: var(--text-dark);
+    color: #ffffff;
     font-weight: 500;
     transition: var(--transition);
     position: relative;
+    text-transform: uppercase;
 }
 
 .nav-link:hover {
-    color: var(--primary-color);
+    color: #b68c5a;
 }
 
 .nav-link.btn-primary {
@@ -101,7 +103,7 @@ body {
 .nav-toggle .bar {
     width: 25px;
     height: 3px;
-    background: var(--primary-color);
+    background: #ffffff;
     margin: 3px 0;
     transition: var(--transition);
 }
@@ -151,7 +153,7 @@ body {
 }
 
 .hero-title {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', serif;
     font-size: 3.5rem;
     font-weight: 700;
     margin-bottom: 1.5rem;
@@ -161,10 +163,44 @@ body {
 .hero-subtitle {
     font-size: 1.1rem;
     font-weight: 500;
-    margin-bottom: 2.5rem;
+    margin-bottom: 1.5rem;
     color: #e0e0e0;
     line-height: 1.6;
     margin-top: 1.0rem;
+}
+
+.hero-features {
+    margin-bottom: 2rem;
+}
+
+.features-title {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--text-dark);
+    margin-bottom: 1rem;
+}
+
+.features-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.8rem;
+}
+
+.feature-tag {
+    display: inline-block;
+    padding: 8px 16px;
+    border: 2px solid #b68c5a;
+    border-radius: 30px;
+    background: transparent;
+    color: #b68c5a;
+    font-size: 0.7rem;
+    font-weight: 500;
+    transition: var(--transition);
+}
+
+.feature-tag:hover {
+    background: #b68c5a;
+    color: var(--white);
 }
 
 .hero-image {
@@ -240,8 +276,8 @@ body {
 
 /* Seções Gerais */
 .section-title {
-    font-family: 'Playfair Display', serif;
-    font-size: 2.5rem;
+    font-family: 'Poppins', serif;
+    font-size: 2.2rem;
     font-weight: 700;
     text-align: center;
     margin-bottom: 3rem;
@@ -448,14 +484,60 @@ section {
 
 .benefits .section-title {
     color: var(--white);
+    margin-bottom: 3rem;
 }
 
-.benefits-text {
+.benefits-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-bottom: 3rem;
+}
+
+.benefit-item {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 2rem;
+    border-radius: var(--border-radius);
+    transition: var(--transition);
+    text-align: left;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.benefit-item:hover {
+    background: rgba(255, 255, 255, 0.15);
+    transform: translateY(-5px);
+}
+
+.benefit-icon {
+    width: 60px;
+    height: 60px;
+    background: var(--secondary-color);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+    color: var(--white);
+}
+
+.benefit-cont.hero-subtitle {
     font-size: 1.2rem;
-    line-height: 1.8;
-    max-width: 900px;
-    margin: 0 auto 3rem;
+    margin-bottom: 1.5rem;
+    color: var(--text-light);
+    line-height: 1.6;
+}
+
+.benefit-content h4 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    color: var(--white);
+    font-weight: 600;
+}
+
+.benefit-content p {
     color: #e0e0e0;
+    line-height: 1.6;
 }
 
 /* Portfolio Section */
@@ -643,7 +725,7 @@ section {
 
 .faq-item.active .faq-answer {
     padding: 1.5rem;
-    max-height: 200px;
+    max-height: 250px;
 }
 
 .faq-answer p {
@@ -666,7 +748,6 @@ section {
 }
 
 .footer-logo {
-    height: 60px;
     margin-bottom: 1rem;
 }
 
@@ -755,12 +836,20 @@ section {
 
 /* Responsividade */
 @media (max-width: 768px) {
+    .container {
+        padding: 0 15px;
+    }
+
+    .features-tags {
+        justify-content: center;
+    }
+
     .nav-menu {
         position: fixed;
         left: -100%;
         top: 70px;
         flex-direction: column;
-        background-color: var(--white);
+        background-color: #1e3539;
         width: 100%;
         text-align: center;
         transition: 0.3s;
@@ -1163,8 +1252,8 @@ section {
 }
 
 .portfolio-info h3 {
-    font-family: 'Playfair Display', serif;
-    font-size: 1.5rem;
+    font-family: 'Poppins', serif;
+    font-size: 1.0rem;
     font-weight: 600;
     margin-bottom: 0.5rem;
     color: var(--primary-color);
