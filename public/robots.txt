@@ -1,8 +1,24 @@
 User-agent: *
 Allow: /
 
+# Permitir acesso a arquivos importantes para SEO
+Allow: /llms.txt
+Allow: /sitemap.xml
+Allow: /robots.txt
+
 # Bloquear URLs problemáticas do CloudFlare
 Disallow: /cdn-cgi/
 
-# Sitemap
+# Bloquear arquivos e diretórios desnecessários
+Disallow: /images - Copia/
+Disallow: /*.psd$
+Disallow: /*.pdf$
+
+# Crawl-delay para evitar sobrecarga
+Crawl-delay: 1
+
+# Sitemaps
 Sitemap: https://landingpageparaadvogados.com/sitemap.xml
+
+# LLMs.txt para melhor compreensão do conteúdo por IA
+# https://landingpageparaadvogados.com/llms.txt
