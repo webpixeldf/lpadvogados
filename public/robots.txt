@@ -1,4 +1,8 @@
 User-agent: *
-Disallow:
+Allow: /
 
+# Bloquear URLs problemáticas do CloudFlare
+Disallow: /cdn-cgi/
+
+# Sitemap
 Sitemap: https://landingpageparaadvogados.com/sitemap.xml
