@@ -1,0 +1,17 @@
+# Redirect CloudFlare Email Protection para página inicial
+RedirectMatch 301 ^/cdn-cgi/l/email-protection/?$ /
+
+# Outras configurações úteis
+RewriteEngine On
+
+# Forçar HTTPS
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# Remover trailing slash
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)/$ /$1 [R=301,L]
+
+# Remover .html no final
+RewriteEngine On
+RewriteRule ^([0-9A-Za-z-_]+)$ /$1.html
