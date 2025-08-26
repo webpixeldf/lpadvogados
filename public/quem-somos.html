@@ -6,9 +6,39 @@
     <title>Quem Somos | Landing Page para Advogados</title>
     <meta name="description" content="Conheça nossa equipe especializada em criação de landing pages para advogados. Experiência, conhecimento jurídico e resultados comprovados."/>
     <link rel="canonical" href="https://landingpageparaadvogados.com/quem-somos" />
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/fontawesome-custom.css">
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Critical CSS inline -->
+    <style>
+        *{margin:0;padding:0;box-sizing:border-box}
+        :root{--primary-color:#314e52;--secondary-color:#b68c5a;--white:#ffffff;--light-gray:#f5f5f5;--text-dark:#333333;--text-light:#666666;--shadow:0 4px 20px rgba(0,0,0,0.1);--border-radius:8px;--transition:all 0.3s ease}
+        body{font-family:'Poppins',sans-serif;line-height:1.6;color:var(--text-dark);overflow-x:hidden}
+        .container{max-width:1200px;margin:0 auto;padding:0 20px}
+        .header{position:fixed;top:0;width:100%;background:var(--white);box-shadow:var(--shadow);z-index:1000;transition:var(--transition)}
+        .navbar{padding:1rem 0;background-color:#1e3539}
+        .nav-container{display:flex;justify-content:space-between;align-items:center;max-width:1200px;margin:0 auto;padding:0 20px}
+        .nav-logo .logo{height:55px;width:auto}
+        .nav-list{display:flex;list-style:none;align-items:center;gap:2rem}
+        .nav-link{text-decoration:none;color:#ffffff;font-weight:500;transition:var(--transition);position:relative;text-transform:uppercase}
+        .nav-link:hover{color:#b68c5a}
+        .nav-link.btn-primary{background:#966b37;color:#ffffff;padding:12px 24px;border-radius:30px;font-weight:600}
+        .nav-link.btn-primary:hover{background:#966b37;color:#ffffff;transform:translateY(-2px)}
+        .nav-toggle{display:none;flex-direction:column;cursor:pointer}
+        .nav-toggle .bar{width:25px;height:3px;background:#ffffff;margin:3px 0;transition:var(--transition)}
+        @media (max-width:768px){.nav-list{display:none}.nav-toggle{display:flex}}
+    </style>
+    
+    <!-- Load full CSS async -->
+    <link rel="preload" href="css/styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="css/styles.css"></noscript>
+    
+    <!-- Preload and async load fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap"></noscript>
+    
+    <!-- Load Font Awesome async -->
+    <link rel="preload" href="css/fontawesome-custom.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="css/fontawesome-custom.css"></noscript>
 </head>
 <body>
     <!-- Header -->
