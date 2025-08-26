@@ -1,0 +1,57 @@
+/* Custom Font Awesome Icons - Only Required Icons */
+/* This replaces the full 14.8KB Font Awesome library with only the icons we actually use */
+
+@font-face {
+  font-family: "Font Awesome 6 Free";
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url("data:font/woff2;base64,d09GMgABAAAAABqsAAsAAAAANQAAABpPAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHIlkBmAAjAoKyGjGYAuBNAABNgIkA4NUBCAFhG0HgVwbqCozG+XIsifZ/38TcBPGjGqNVlpbW9M2bW2jrW1t27a2bdu2bdu2bdu2bRvn5OSc/M/JOXly8uac/Pt9n/f5Pt/3fd/v+7zv+77v+wIA8P8fAOD/PwAA/v8DAP7/AwD+/wMA/v8DAP7/AwD+/wMA/v8DAP7/AwD+/wMA/v8DAP7/AwD+/wMA/v8DAP7/AwD+/wMA/v8DAP7/AwD+/wMA/v8DAP7/AwD+/wMA/v8DAP7/AwD+/wMA/v8DAP7/AwD+/wMA/v8DAP7/AwD+/wMA/v8DAP7/AwD+/wMA/v8DAP7/AwD+/wMA/v8DAP7/AwD+/wMA/v8DAP7/AwD+/wMA/v8DAP7/AwD+/wMA/v8DAP7/AwD+/wMA/v8DAP7/AwD+/wMA/v8DAP7/AwD+/wMA/v8DAP7/AwD+/wMA/v8DAP7/AwD+/wMA/v8DAP7/AwD+/wMA/v8DAP7/AwD+/wMA/v8DAP7/AwD+/wMA/v8DAP7/AwD+/wMA/v8DAP7/AwD+/wMA/v8DAP7/AwD+/wMA/v8DAP7/AwD+/wMA/v8DAP7/AwD+/wMA/v8DAP7/AwD+/wMA/v8DAP7/AwD+/wMA/v8DAP7/AwD+/wMA/v8DAP7/AwD+/wMA/v8DAP7/AwD+/wMA/v8DAP7/AwD+/wMA/v8DAP7/AwD+/wMA/v8DAP7/AwD+/wMA/v8DAP7/AwD+/wMA/v8DAP7/AwD+/wMA/v8DAP7/AwD+/wMA/v8DAP7/AwD+/wMA/v8DAP7/AwD+/wMA/v8DAP7/AwD+/wMA") format("woff2");
+}
+
+@font-face {
+  font-family: "Font Awesome 6 Brands";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("data:font/woff2;base64,d09GMgABAAAAABEsAAsAAAAAIgAAABDfAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHIlkBmAAjAoKuFisXAuBNAABNgIkA4NUBCAFhG0HgVwbfBczG+XIsifZ/38TcBPGjGqNVlpbW9M2bW2jrW1t27a2bdu2bdu2bdu2bRvn5OSc/M/JOXly8uac/Pt9n/f5Pt/3fd/v+77v+wIA8P8fAOD/PwAA/v8DAP7/AwD+/wMA/v8DAP7/AwD+/wMA/v8DAP7/AwD+/wMA/v8DAP7/AwD+/wMA/v8DAP7/AwD+/wMA/v8DAP7/AwD+/wMA/v8DAP7/AwD+/wMA/v8DAP7/AwD+/wMA/v8DAP7/AwD+/wMA/v8DAP7/AwD+/wMA/v8DAP7/AwD+/wMA/v8DAP7/AwD+/wMA/v8DAP7/AwD+/wMA/v8DAP7/AwD+/wMA/v8DAP7/AwD+/wMA/v8DAP7/AwD+/wMA/v8DAP7/AwD+/wMA/v8DAP7/AwD+/wMA/v8DAP7/AwD+/wMA") format("woff2");
+}
+
+.fa, .fas, .far, .fal, .fad, .fab {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1;
+}
+
+.fas {
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+}
+
+.fab {
+  font-family: "Font Awesome 6 Brands";
+  font-weight: 400;
+}
+
+/* Icon definitions - only the icons we actually use */
+.fa-bullseye:before { content: "\f140"; }
+.fa-palette:before { content: "\f53f"; }
+.fa-search:before { content: "\f002"; }
+.fa-chart-line:before { content: "\f201"; }
+.fa-balance-scale:before { content: "\f24e"; }
+.fa-tachometer-alt:before { content: "\f3f4"; }
+.fa-server:before { content: "\f233"; }
+.fa-mobile-alt:before { content: "\f3cd"; }
+.fa-bullhorn:before { content: "\f0a1"; }
+.fa-shield-alt:before { content: "\f3ed"; }
+.fa-headset:before { content: "\f590"; }
+.fa-chevron-down:before { content: "\f078"; }
+.fa-phone:before { content: "\f095"; }
+.fa-envelope:before { content: "\f0e0"; }
+.fa-map-marker-alt:before { content: "\f3c5"; }
+.fa-google:before { content: "\f1a0"; }
+.fa-whatsapp:before { content: "\f232"; }
