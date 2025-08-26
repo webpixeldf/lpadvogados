@@ -81,7 +81,7 @@ body {
 }
 
 .nav-link.btn-primary {
-    background: var(--secondary-color);
+    background: #966b37;
     color: #ffffff;
     padding: 12px 24px;
     border-radius: 30px;
@@ -89,7 +89,7 @@ body {
 }
 
 .nav-link.btn-primary:hover {
-    background: #9f7c52;
+    background: ##966b37;
     color: #ffffff;
     transform: translateY(-2px);
 }
@@ -258,7 +258,7 @@ body {
 
 .btn-cta {
     display: inline-block;
-    background: #ad8352;
+    background: #966b37;
     color: #ffffff;
     padding: 18px 36px;
     text-decoration: none;
@@ -271,7 +271,7 @@ body {
 }
 
 .btn-cta:hover {
-    background: #b68c5a;
+    background: #966b37;
     transform: translateY(-3px);
     box-shadow: 0 8px 25px rgba(182, 140, 90, 0.3);
 }
